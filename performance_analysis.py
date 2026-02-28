@@ -18,6 +18,6 @@ list_time = time.time() - start
 
 print("NumPy sum: ", numpy_array_sum)
 print("Python sum: ", list_array_sum)
-print(f"NumPy time: {numpy_time:.4f}")
-print(f"Python time: {list_time:.4f}")
-print(f"NumPy is {list_time/numpy_time:.2f}x faster")
+print(f"NumPy time: {numpy_time:.4f} seconds")
+print(f"Python time: {list_time:.4f} seconds")
+print(f"NumPy is {(list_time/numpy_time):.1f}x faster")
