@@ -21,9 +21,3 @@ print("Python sum: ", list_array_sum)
 print(f"NumPy time: {numpy_time:.4f}")
 print(f"Python time: {list_time:.4f}")
 print(f"NumPy is {list_time/numpy_time:.2f}x faster")
-
-# NumPy sum: 1250025000
-# Python sum: 1250025000
-# NumPy time: 0.0002 seconds
-# Python time: 0.0031 seconds
-# NumPy is 15.5x faster
